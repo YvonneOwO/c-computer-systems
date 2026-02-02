@@ -57,7 +57,7 @@ int main()
     // 2) array
     int arr[6] = {1, 2, 3, 1000, -1, 42};
 
-    // 3) string (注意：数组形式的 string 会包含末尾 '\0')
+    // 3) string
     char msg[] = "Hello, Memory Inspector!";
 
     printf("Inspect struct Student s (size=%zu)\n", sizeof(Student));
